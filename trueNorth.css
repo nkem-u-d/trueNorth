@@ -7,16 +7,14 @@
     padding: 30px;
     border-bottom: solid 1px;
 
-
 }
 
 #header>span {
-    background-color: green;
     float: left;
     width: 20%;
 
 }
-
+/* styling the top navigation panel */
 #header>#navBar {
     float: right;
     width: 70%;
@@ -25,9 +23,13 @@
 #navBar #topNav {
     float: right;
     display: flex;
-
 }
 
+#topNav input{
+    border: solid 2px;
+    height: 40px;
+    border-radius: 5px;
+}
 #topNav a {
     color: black;
     margin-right: 30px;
