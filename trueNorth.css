@@ -49,9 +49,9 @@
 }
 /* placing hero text in the middle and other styling */
 #heroTXT{
-   width: 50%;
+   width: 60%;
    height: 50vh;
-   background-color: grey;
+   background-color: rgba(0, 0, 0, 0.5);
 }
 #heroTXT h3{
     color: white;
@@ -70,5 +70,31 @@
     text-transform: uppercase;
 }
 #heroTXT span{
-    color: blue;
+    color: #2294f2;
+}
+/* contact us link in inside the hero image */
+.contactBTN{
+    background-color:;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+#heroTXT a{
+    padding: 20px 60px;
+    background-color: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #2294f2;
+    align-self: center;
+    text-decoration: none;
+    border: solid 1px;
+    
+}
+/* hover effect on the contact button */
+#heroTXT a:hover{
+    background-color: #2294f2;
+    color: white;
+    transition-duration: .5s;
 }
