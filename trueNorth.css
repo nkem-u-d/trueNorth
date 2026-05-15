@@ -112,6 +112,45 @@
 }
 /* commitment section */
 #commitment{
-    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
     
+}
+#commitment .commitmentContent{
+    width: 50%;
+    height: auto;
+    margin: 100px 10px;
+}
+.commitmentContent h1{
+    font-size: 50px;
+    color: #41464B;
+    font-family: ROboto, sans-serif;
+}
+.commitmentContent p{
+    font-size:  17px;
+    font-family: roboto, sans-serif;
+    color: #717171;
+}
+.commitmentContent hr{
+    width: 50px;
+    height: 5px;
+    background-color: #2294f2;
+}
+/* Read more button */
+
+.commitmentContent .readMoreBtn{
+    width: 100%;
+    height: auto;
+    background-color: none;
+    text-align: center;
+    padding: 30px;
+}
+.readMoreBtn a{
+    background-color: none;
+    padding: 20px 60px;
+    color: #2294f2;
+    border: solid 1px;
 }
