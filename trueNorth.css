@@ -162,4 +162,37 @@
     border: none;
     text-decoration: none;
 }
-
+/*  alligning the process sections horizontally and styling accordingly */
+#process{
+    background-color: none;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+/* styling the icons */
+.icon{
+    width: 200px;
+    height: auto;
+}
+.icon > img{
+    width: 100%;
+    height: 100%;
+}
+/* styling the individual blocks */
+#navy{
+    background-color: #12355b;
+    width: 30%;
+    height: 70vh;
+}
+#navy h3{
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+#navy p{
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: large;
+}
