@@ -50,7 +50,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
+   
+    
 }
 /* placing hero text in the middle and other styling */
 #heroTXT{
@@ -58,6 +60,8 @@
    height: 50vh;
    border: solid white 5px;
    background-color: rgba(0, 0, 0, 0.5);
+   margin: 200px 20px;
+   
 }
 #heroTXT h3{
     color: white;
@@ -105,4 +109,9 @@
     transition-duration: .5s;
     text-decoration: underline;
     border:none
+}
+/* commitment section */
+#commitment{
+    position: relative;
+    
 }
