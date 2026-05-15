@@ -74,8 +74,8 @@
 }
 /* contact us link in inside the hero image */
 .contactBTN{
-    background-color:;
     height: auto;
+    margin: 20px;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -97,4 +97,6 @@
     background-color: #2294f2;
     color: white;
     transition-duration: .5s;
+    text-decoration: underline;
+    border:none
 }
