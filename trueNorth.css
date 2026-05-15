@@ -154,3 +154,12 @@
     color: #2294f2;
     border: solid 1px;
 }
+/* hover effect on the read me btn */
+.readMoreBtn a:hover{
+    background-color: #2294f2;
+    color: white;
+    transition-duration: .5s;
+    border: none;
+    text-decoration: none;
+}
+
