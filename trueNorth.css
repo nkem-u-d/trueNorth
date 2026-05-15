@@ -30,8 +30,11 @@
     height: 40px;
     border-radius: 5px;
 }
+/* top NAv links */
 #topNav a {
     color: black;
+    font-size: 1.1em;
+    font-weight: bold;
     margin-right: 30px;
     text-decoration: none;
     text-transform: capitalize;
