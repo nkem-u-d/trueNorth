@@ -42,13 +42,33 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 /* placing hero text in the middle and other styling */
 #heroTXT{
-    align-content: center;
-    justify-content: center;
-    width: 50%;
+   width: 50%;
+   height: 50vh;
+   background-color: grey;
+}
+#heroTXT h3{
     color: white;
-    
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+#heroTXT p{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+#heroTXT span{
+    color: blue;
 }
