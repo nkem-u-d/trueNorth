@@ -116,7 +116,6 @@
     height: auto;
     display: flex;
     justify-content: center;
-
     
 }
 #commitment .commitmentContent{
@@ -154,7 +153,8 @@
     color: #2294f2;
     border: solid 1px;
 }
-/* hover effect on the read me btn */
+/* applying the  hover effect on the read me btn for better contrast and visibility */
+
 .readMoreBtn a:hover{
     background-color: #2294f2;
     color: white;
@@ -162,7 +162,8 @@
     border: none;
     text-decoration: none;
 }
-/*  alligning the process sections horizontally and styling accordingly */
+/*  aligning the "process" sections horizontally and styling accordingly */
+
 #process{
     background-color: none;
     display: flex;
