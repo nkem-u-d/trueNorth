@@ -1,7 +1,7 @@
-
 /* disable the scroll behaviour of the entire page */
-body{ 
+body {
     overflow-x: hidden;
+    font-family: roboto, sans-serif;
 }
 
 
@@ -227,13 +227,15 @@ body{
     height: 75vh;
     border-radius: 5px;
 }
-#green{
+
+#green {
     background-color: #9BC53D;
     width: 30%;
     height: 70vh;
     border-radius: 5px;
 }
-#yellow{
+
+#yellow {
     background-color: #fde74c;
     width: 30%;
     height: 75vh;
@@ -254,21 +256,95 @@ body{
 
 #blue p,
 #green p,
-#yellow p
-{
+#yellow p {
     color: white;
     font-family: roboto, sans-serif;
     font-size: 1rem;
     text-align: center;
-    line-height: 27px;    
+    line-height: 27px;
     text-transform: capitalize;
 }
+
 /* adding the hover effects on each  icon container */
-#blue:hover, 
+#blue:hover,
 #green:hover,
-#yellow:hover{
+#yellow:hover {
     background-color: rgba(0, 0, 0, 0.6);
     transition-duration: .6s;
     transform: translateY(-20px);
 }
+/* offer section */
+#offers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 100px 20px;
+    padding: 50px;
+    background-color: none;
 
+}
+
+/*  implementing the dropdown on hover effect */
+#offerContainer {
+    position: relative;
+    width: 20%;
+
+}
+#overlayContainer{
+    width: 100%;
+    height: auto;
+
+}
+
+#offerContainer > .image {
+    
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: #044b7f;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+#offerContainer:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.linkIcon {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* left offer panel */
+#offerLeft{
+    background-color: none;
+    text-align: left;
+    width: 20%;
+    height: auto;
+    display: block;
+}
+#offerLeft .line{
+    width: 10%;
+    margin-bottom: 20px;
+    height: 5px;
+    background-color: blue;
+
+}
+/* offers button */
+.offerBTN a{
+    display: block;
+}
