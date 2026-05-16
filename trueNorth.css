@@ -223,16 +223,19 @@ body{
     background-color: #1993C8;
     width: 30%;
     height: 75vh;
+    border-radius: 5px;
 }
 #green{
     background-color: #9BC53D;
     width: 30%;
     height: 70vh;
+    border-radius: 5px;
 }
 #yellow{
     background-color: #fde74c;
     width: 30%;
     height: 75vh;
+    border-radius: 5px;
 }
 
 /* Formatting the container text contents */
