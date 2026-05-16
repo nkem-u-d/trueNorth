@@ -1,3 +1,10 @@
+
+/* disable the scroll behaviour of the entire page */
+body{ 
+    overflow-x: hidden;
+}
+
+
 /* top header section */
 #header {
     width: 100%;
@@ -132,7 +139,7 @@
 #commitment .commitmentContent {
     width: 50%;
     height: auto;
-    margin: 150px 10px;
+    margin: 200px 10px;
 }
 
 .commitmentContent h1 {
@@ -204,7 +211,7 @@
 .icon>img {
     width: 150px;
     height: 150px;
-    
+
 }
 
 /* styling the  Blue, green and Yellow, containers */
