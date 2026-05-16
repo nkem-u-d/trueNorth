@@ -14,6 +14,7 @@
     width: 20%;
 
 }
+
 /* styling the top navigation panel */
 #header>#navBar {
     float: right;
@@ -25,11 +26,12 @@
     display: flex;
 }
 
-#topNav input{
+#topNav input {
     border: solid 2px;
     height: 40px;
     border-radius: 5px;
 }
+
 /* top NAv links */
 #topNav a {
     color: black;
@@ -40,30 +42,33 @@
     text-transform: capitalize;
 
 }
+
 /* background image on the hero section */
-#hero{
+#hero {
     width: 100%;
     background-image: url(home-banner-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-   
-    
+
+
 }
+
 /* placing hero text in the middle and other styling */
-#heroTXT{
-   width: 60%;
-   height: 50vh;
-   border: solid white 5px;
-   background-color: rgba(0, 0, 0, 0.5);
-   margin: 200px 20px;
-   
+#heroTXT {
+    width: 60%;
+    height: 50vh;
+    border: solid white 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 200px 20px;
+
 }
-#heroTXT h3{
+
+#heroTXT h3 {
     color: white;
     font-size: 4rem;
     text-transform: uppercase;
@@ -72,18 +77,21 @@
     text-align: center;
 
 }
-#heroTXT p{
+
+#heroTXT p {
     color: white;
     font-family: Roboto, sans-serif;
     font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
 }
-#heroTXT span{
+
+#heroTXT span {
     color: #2294f2;
 }
+
 /* contact us link in inside the hero image */
-.contactBTN{
+.contactBTN {
     height: auto;
     margin: 20px;
     display: flex;
@@ -91,7 +99,8 @@
     padding: 10px;
 
 }
-#heroTXT a{
+
+#heroTXT a {
     padding: 20px 60px;
     background-color: none;
     font-size: 25px;
@@ -100,104 +109,142 @@
     align-self: center;
     text-decoration: none;
     border: solid 1px;
-    
+
 }
+
 /* hover effect on the contact button */
-#heroTXT a:hover{
+#heroTXT a:hover {
     background-color: #2294f2;
     color: white;
     transition-duration: .5s;
     text-decoration: underline;
-    border:none
+    border: none
 }
+
 /* commitment section */
-#commitment{
+#commitment {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
-    
+
 }
-#commitment .commitmentContent{
+
+#commitment .commitmentContent {
     width: 50%;
     height: auto;
     margin: 150px 10px;
 }
-.commitmentContent h1{
+
+.commitmentContent h1 {
     font-size: 50px;
     color: #41464B;
     font-family: ROboto, sans-serif;
 }
-.commitmentContent p{
-    font-size:  17px;
+
+.commitmentContent p {
+    font-size: 17px;
     font-family: roboto, sans-serif;
     color: #717171;
 }
-.commitmentContent hr{
+
+.commitmentContent hr {
     width: 50px;
     height: 5px;
     background-color: #2294f2;
 }
+
 /* Read more button */
 
-.commitmentContent .readMoreBtn{
+.commitmentContent .readMoreBtn {
     width: 100%;
     height: auto;
     background-color: none;
     text-align: center;
     padding: 30px;
 }
-.readMoreBtn a{
+
+.readMoreBtn a {
     background-color: none;
     padding: 20px 60px;
     color: #2294f2;
     border: solid 1px;
 }
+
 /* applying the  hover effect on the read me btn for better contrast and visibility */
 
-.readMoreBtn a:hover{
+.readMoreBtn a:hover {
     background-color: #2294f2;
     color: white;
     transition-duration: .5s;
     border: none;
     text-decoration: none;
 }
+
 /*  aligning the "process" sections horizontally and styling accordingly */
 
-#process{
+#process {
     background-color: none;
     display: flex;
     width: 100%;
     height: auto;
     padding: 20px;
 }
+
 /* styling the icons */
-.icon{
+.icon {
     width: 100%;
     height: auto;
     display: flex;
-    background-color:  none;
+    background-color: none;
     justify-content: center;
-    
+    padding-top: 100px;
+
 }
-.icon > img{
+
+.icon>img {
     width: 150px;
-    height: 100%;
+    height: 150px;
+
+
 }
+
 /* styling the individual blocks */
-#blue{
+#blue {
     background-color: #1993C8;
     width: 30%;
     height: 70vh;
 }
-#blue h3{
+
+#blue h3,
+#green h3,
+#yellow h3 {
     color: black;
     font-family: roboto, sans-serif;
     font-size: 1rem;
     text-align: center;
 }
-#blue p{
+
+#blue p,
+#green p,
+#yellow p
+{
     color: white;
     font-family: roboto, sans-serif;
-    font-size: large;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 27px;    
+    text-transform: capitalize;
+}
+/* lemon green icon container */
+#green{
+    background-color: #9BC53D;
+    width: 30%;
+    height: 70vh;
+}
+#yellow{
+    background-color: #fde74c;
+    width: 30%;
+    height: 70vh;
+
 }
