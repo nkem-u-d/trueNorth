@@ -347,4 +347,9 @@ body {
 /* offers button */
 .offerBTN a{
     display: block;
+    padding: 25px;
+    text-align: center;
+    color: black;
+    background-color: red;
+    margin: 10px;
 }
