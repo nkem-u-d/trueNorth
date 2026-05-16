@@ -55,7 +55,6 @@
     align-items: center;
     height: auto;
 
-
 }
 
 /* placing hero text in the middle and other styling */
@@ -205,17 +204,27 @@
 .icon>img {
     width: 150px;
     height: 150px;
-
-
+    
 }
 
-/* styling the individual blocks */
+/* styling the  Blue, green and Yellow, containers */
 #blue {
     background-color: #1993C8;
     width: 30%;
     height: 70vh;
 }
+#green{
+    background-color: #9BC53D;
+    width: 30%;
+    height: 70vh;
+}
+#yellow{
+    background-color: #fde74c;
+    width: 30%;
+    height: 70vh;
+}
 
+/* Formatting the container text contents */
 #blue h3,
 #green h3,
 #yellow h3 {
@@ -236,15 +245,4 @@
     line-height: 27px;    
     text-transform: capitalize;
 }
-/* lemon green icon container */
-#green{
-    background-color: #9BC53D;
-    width: 30%;
-    height: 70vh;
-}
-#yellow{
-    background-color: #fde74c;
-    width: 30%;
-    height: 70vh;
 
-}
