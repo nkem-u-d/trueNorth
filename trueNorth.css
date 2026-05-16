@@ -54,6 +54,7 @@ body{
 #hero {
     width: 100%;
     background-image: url(home-banner-bg.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
