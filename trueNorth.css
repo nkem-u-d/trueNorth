@@ -173,26 +173,30 @@
 }
 /* styling the icons */
 .icon{
-    width: 200px;
+    width: 100%;
     height: auto;
+    display: flex;
+    background-color:  none;
+    justify-content: center;
+    
 }
 .icon > img{
-    width: 100%;
+    width: 150px;
     height: 100%;
 }
 /* styling the individual blocks */
-#navy{
-    background-color: #12355b;
+#blue{
+    background-color: #1993C8;
     width: 30%;
     height: 70vh;
 }
-#navy h3{
-    color: white;
+#blue h3{
+    color: black;
     font-family: roboto, sans-serif;
     font-size: 1rem;
     text-align: center;
 }
-#navy p{
+#blue p{
     color: white;
     font-family: roboto, sans-serif;
     font-size: large;
