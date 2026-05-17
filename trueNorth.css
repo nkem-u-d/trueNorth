@@ -280,24 +280,25 @@ body {
     display: flex;
     margin: 100px 20px;
     padding: 50px;
+    gap: 10px;
     background-color: none;
-
 }
 
 /*  implementing the dropdown on hover effect */
 #offerContainer {
     position: relative;
     width: 20%;
+    height: 70vh;
+    border: solid 1px;
 
 }
 #overlayContainer{
     width: 100%;
     height: auto;
-
+    margin-bottom: 50px;
 }
 
 #offerContainer > .image {
-    
     height: auto;
     display: block;
 }
@@ -313,6 +314,7 @@ body {
     height: 0;
     transition: .5s ease;
 }
+/* applying th hover effect on the offer sections */
 
 #offerContainer:hover .overlay {
     bottom: 0;
@@ -352,4 +354,17 @@ body {
     color: black;
     background-color: red;
     margin: 10px;
+}
+.offerTXT h2{
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+.offerTXT p{
+    text-transform: none;
+    font-family: papyrus;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+   
 }
