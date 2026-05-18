@@ -281,7 +281,7 @@ body {
     margin: 100px 20px;
     padding: 50px;
     gap: 10px;
-    background-color: none;
+    background-color: #DCE0D9;
 }
 
 /*  implementing the dropdown on hover effect */
@@ -289,7 +289,7 @@ body {
     position: relative;
     width: 20%;
     height: 70vh;
-    border: solid 1px;
+    border: solid 2px #1993C8 ;
 
 }
 #overlayContainer{
