@@ -393,6 +393,7 @@ body {
 }
 
 /* strory section */
+
 #storyContainer {
     width: 100%;
     height: auto;
@@ -402,11 +403,17 @@ body {
 }
 
 /* story header */
-#storyContainer>h3 {
-    text-transform: uppercase;
+.storyHeader{
+    width: 100%;
+    height: auto;
+    display: block;
     text-align: center;
 }
-
+.storyHeader>h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+}
 #ourStory {
     background-color: none;
     width: 100%;
@@ -449,7 +456,24 @@ body {
 }
 
 .storyTXT>.underline {
-    width: 10%;
-    height: 10px;
+    width: 15%;
+    height: 15px;
     background-color: #2294f2;
+}
+.storyTextLogo{
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    background-color: none;
+    
+}.storyTextLogo .read{
+    border: solid 1px;
+    color: #2294f2;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 15px 50px;
+}
+.storyTextLogo > .image{
+    background-color:  none;
 }
