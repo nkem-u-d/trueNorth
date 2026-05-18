@@ -396,6 +396,8 @@ body {
 #storyContainer {
     width: 100%;
     height: auto;
+    margin: 50px;
+    padding: 20px 5px;
     display: block;
 }
 
@@ -447,6 +449,7 @@ body {
 }
 
 .storyTXT>.underline {
-    width: 20%;
-    background-color: red;
+    width: 10%;
+    height: 10px;
+    background-color: #2294f2;
 }
