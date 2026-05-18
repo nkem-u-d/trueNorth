@@ -273,6 +273,7 @@ body {
     transition-duration: .6s;
     transform: translateY(-20px);
 }
+
 /* offer section */
 #offers {
     width: 100%;
@@ -289,16 +290,17 @@ body {
     position: relative;
     width: 20%;
     height: 70vh;
-    border: solid 2px #1993C8 ;
+    border: solid 2px #1993C8;
 
 }
-#overlayContainer{
+
+#overlayContainer {
     width: 100%;
     height: auto;
     margin-bottom: 50px;
 }
 
-#offerContainer > .image {
+#offerContainer>.image {
     height: auto;
     display: block;
 }
@@ -314,6 +316,7 @@ body {
     height: 0;
     transition: .5s ease;
 }
+
 /* applying th hover effect on the offer sections */
 
 #offerContainer:hover .overlay {
@@ -331,23 +334,26 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* left offer panel */
-#offerLeft{
+#offerLeft {
     background-color: none;
     text-align: left;
     width: 20%;
     height: auto;
     display: block;
 }
-#offerLeft .line{
+
+#offerLeft .line {
     width: 10%;
     margin-bottom: 20px;
     height: 5px;
     background-color: blue;
 
 }
+
 /* offers button */
-.offerBTN a{
+.offerBTN a {
     display: block;
     padding: 25px;
     text-align: center;
@@ -360,26 +366,67 @@ body {
     font-size: 1rem;
     text-align: center;
 }
+
 /* hover effect on the offer buttons */
-.offerBTN a:hover{
-background-color: #717171;
-color: white;
-border: solid1px;
-font-size: 1rem;
-font-family: roboto, sans-serif;
-text-decoration: none;
+.offerBTN a:hover {
+    background-color: #717171;
+    color: white;
+    border: solid1px;
+    font-size: 1rem;
+    font-family: roboto, sans-serif;
+    text-decoration: none;
 }
 
-.offerTXT h2{
+.offerTXT h2 {
     color: black;
     text-align: center;
     text-transform: capitalize;
 }
-.offerTXT p{
+
+.offerTXT p {
     text-transform: none;
     font-family: papyrus;
     text-align: center;
     margin-top: 50px;
     font-size: 1.2rem;
-   
+
+}
+
+/* strory section */
+#storyContainer {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* story header */
+#storyContainer h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#ourStory {
+    background-color: none;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+}
+
+.storyIMG {
+    width: 50%;
+    height: auto;
+
+}
+
+.storyIMG img {
+    width: 100%;
+    height: 100%;
+}
+
+/* styling the text of the story section */
+.storyTXT{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 0  0 50px;
 }
