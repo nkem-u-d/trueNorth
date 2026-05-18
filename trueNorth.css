@@ -352,9 +352,24 @@ body {
     padding: 25px;
     text-align: center;
     color: black;
-    background-color: red;
+    background-color: #2294f2;
+    border: solid 1px;
     margin: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
 }
+/* hover effect on the offer buttons */
+.offerBTN a:hover{
+background-color: #717171;
+color: white;
+border: solid1px;
+font-size: 1rem;
+font-family: roboto, sans-serif;
+text-decoration: none;
+}
+
 .offerTXT h2{
     color: black;
     text-align: center;
