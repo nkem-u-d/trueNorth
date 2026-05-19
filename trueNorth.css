@@ -235,8 +235,8 @@ body {
     border-radius: 5px;
 }
 
-#yellow {
-    background-color: #fde74c;
+#purple {
+    background-color: #808f85;
     width: 30%;
     height: 75vh;
     border-radius: 5px;
@@ -245,18 +245,17 @@ body {
 /* Formatting the container text contents */
 #blue h3,
 #green h3,
-#yellow h3 {
+#purple h3 {
     color: black;
     font-family: roboto, sans-serif;
     font-size: 1rem;
     text-transform: capitalize;
-    text-decoration: underline;
     text-align: center;
 }
 
 #blue p,
 #green p,
-#yellow p {
+#purple p {
     color: white;
     font-family: roboto, sans-serif;
     font-size: 1rem;
@@ -268,7 +267,7 @@ body {
 /* adding the hover effects on each  icon container */
 #blue:hover,
 #green:hover,
-#yellow:hover {
+#purple:hover {
     background-color: rgba(0, 0, 0, 0.6);
     transition-duration: .6s;
     transform: translateY(-20px);
@@ -472,14 +471,17 @@ body {
     color: #2294f2;
     text-decoration: none;
     font-size: 1rem;
+    text-transform: uppercase;
     padding: 15px 50px;
 }
 /* this section controls the hover effect on the storyTXT section */
+
 .storyTextLogo .read:hover{
     background-color: #2294f2;
     color: white;
     border: solid;
     transition: .5s;
+
 
 }
 .storyTextLogo > .image{
