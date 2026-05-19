@@ -268,7 +268,7 @@ body {
 #blue:hover,
 #green:hover,
 #purple:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #668f80;
     transition-duration: .6s;
     transform: translateY(-20px);
 }
