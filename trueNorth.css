@@ -1,491 +1,707 @@
-/* disable the scroll behaviour of the entire page */
-body {
+/* =========================
+        TRUENORTH.CSS
+========================= */
+
+
+/* =========================
+        GLOBAL RESET
+========================= */
+
+/* removes default browser spacing */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* general body styling */
+body{
     overflow-x: hidden;
-    font-family: roboto, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 
-/* top header section */
-#header {
+
+/* =========================
+        HEADER SECTION
+========================= */
+
+#header{
+
     width: 100%;
-    height: auto;
+
+    /* spacing inside header */
+    padding: 20px 50px;
+
+    /* horizontal alignment */
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    padding: 30px;
-    border-bottom: solid 1px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: solid 1px #ccc;
 }
 
-#header>span {
-    float: left;
-    width: 20%;
 
+/* company logo */
+.logo img{
+    width: 150px;
 }
 
-/* styling the top navigation panel */
-#header>#navBar {
-    float: right;
-    width: 70%;
-}
 
-#navBar #topNav {
-    float: right;
+/* navigation container */
+#topNav{
+
     display: flex;
+    align-items: center;
+
+    gap: 25px;
 }
 
-#topNav input {
-    border: solid 2px;
-    height: 40px;
-    border-radius: 5px;
-}
 
-/* top NAv links */
-#topNav a {
-    color: black;
-    font-size: 1.1em;
-    font-weight: bold;
-    margin-right: 30px;
+/* nav links */
+#topNav a{
+
     text-decoration: none;
-    text-transform: capitalize;
+    color: black;
 
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
-/* background image on the hero section */
-#hero {
+
+/* search input */
+#topNav input{
+
+    padding: 10px;
+
+    border-radius: 5px;
+    border: solid 1px #999;
+}
+
+
+
+/* =========================
+        HERO SECTION
+========================= */
+
+#hero{
+
     width: 100%;
+
+    /* full screen height */
+    min-height: 100vh;
+
+    /* background image */
     background-image: url(home-banner-bg.jpg);
-    background-attachment: fixed;
+
     background-size: cover;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+
+    /* center content */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
-
 }
 
-/* placing hero text in the middle and other styling */
-#heroTXT {
+
+/* dark transparent text box */
+#heroTXT{
+
     width: 60%;
-    height: 70vh;
-    border: solid white 5px;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 200px 20px;
 
+    padding: 80px;
+
+    border: solid 5px white;
+
+    background-color: rgba(0,0,0,0.5);
+
+    text-align: center;
 }
 
-#heroTXT h3 {
+
+/* hero heading */
+#heroTXT h3{
+
     color: white;
+
     font-size: 4rem;
     text-transform: uppercase;
-    font-family: roboto, sans-serif;
-    font-weight: 700;
-    text-align: center;
-
 }
 
-#heroTXT p {
+
+/* highlighted word */
+#heroTXT span{
+    color: #2294f2;
+}
+
+
+/* hero paragraph */
+#heroTXT p{
+
     color: white;
-    font-family: Roboto, sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    text-transform: uppercase;
+
+    font-size: 1.5rem;
+
+    margin-top: 20px;
 }
 
-#heroTXT span {
-    color: #2294f2;
+
+/* contact button wrapper */
+.contactBTN{
+    margin-top: 40px;
 }
 
-/* contact us link in inside the hero image */
-.contactBTN {
-    height: auto;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
 
-}
+/* contact button */
+.contactBTN a{
 
-#heroTXT a {
-    padding: 20px 60px;
-    background-color: none;
-    font-size: 25px;
-    font-weight: bolder;
-    color: #2294f2;
-    align-self: center;
+    padding: 20px 50px;
+
+    border: solid 1px white;
+
     text-decoration: none;
-    border: solid 1px;
 
-}
-
-/* hover effect on the contact button */
-#heroTXT a:hover {
-    background-color: #2294f2;
     color: white;
-    transition-duration: .5s;
-    text-decoration: underline;
-    border: none
+
+    transition: 0.4s;
 }
 
-/* commitment section */
-#commitment {
+
+/* hover effect */
+.contactBTN a:hover{
+    background-color: #2294f2;
+}
+
+
+
+/* =========================
+    COMMITMENT SECTION
+========================= */
+
+#commitment{
+
     width: 100%;
-    height: auto;
+
+    padding: 100px 20px;
+
     display: flex;
     justify-content: center;
-
 }
 
-#commitment .commitmentContent {
-    width: 50%;
-    height: auto;
-    margin: 200px 10px;
+
+/* text container */
+.commitmentContent{
+
+    width: 60%;
+
+    text-align: center;
 }
 
-.commitmentContent h1 {
-    font-size: 50px;
+
+/* heading */
+.commitmentContent h1{
+
+    font-size: 3rem;
+
     color: #41464B;
-    font-family: ROboto, sans-serif;
 }
 
-.commitmentContent p {
-    font-size: 17px;
-    font-family: roboto, sans-serif;
+
+/* decorative line */
+.commitmentContent hr{
+
+    width: 100px;
+    height: 5px;
+
+    background-color: #2294f2;
+
+    margin: 30px auto;
+
+    border: none;
+}
+
+
+/* paragraph */
+.commitmentContent p{
+
+    line-height: 30px;
+
     color: #717171;
 }
 
-.commitmentContent hr {
-    width: 50px;
-    height: 5px;
-    background-color: #2294f2;
+
+/* button container */
+.readMoreBtn{
+    margin-top: 40px;
 }
 
-/* Read more button */
 
-.commitmentContent .readMoreBtn {
-    width: 100%;
-    height: auto;
-    background-color: none;
-    text-align: center;
-    padding: 30px;
-}
+/* read more button */
+.readMoreBtn a{
 
-.readMoreBtn a {
-    background-color: none;
-    padding: 20px 60px;
+    padding: 15px 40px;
+
+    border: solid 1px #2294f2;
+
+    text-decoration: none;
+
     color: #2294f2;
-    border: solid 1px;
+
+    transition: 0.4s;
 }
 
-/* applying the  hover effect on the read me btn for better contrast and visibility */
 
-.readMoreBtn a:hover {
+/* button hover */
+.readMoreBtn a:hover{
+
     background-color: #2294f2;
+
     color: white;
-    transition-duration: .5s;
-    border: none;
+}
+
+
+
+/* =========================
+        PROCESS SECTION
+========================= */
+
+#process{
+
+    width: 100%;
+
+    padding: 100px 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+}
+
+
+/* process cards */
+.processCard{
+
+    width: 30%;
+
+    padding: 40px 20px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    transition: 0.4s;
+}
+
+
+/* card hover animation */
+.processCard:hover{
+    transform: translateY(-15px);
+}
+
+
+/* individual card colors */
+.blue{
+    background-color: #1993C8;
+}
+
+.green{
+    background-color: #9BC53D;
+}
+
+.purple{
+    background-color: #808f85;
+}
+
+
+/* icons */
+.icon img{
+    width: 120px;
+}
+
+
+/* card heading */
+.processCard h3{
+
+    margin-top: 20px;
+
+    color: black;
+}
+
+
+/* card paragraph */
+.processCard p{
+
+    margin-top: 20px;
+
+    color: white;
+
+    line-height: 28px;
+}
+
+
+
+/* =========================
+        OFFERS SECTION
+========================= */
+
+#offers{
+
+    width: 100%;
+
+    padding: 100px 40px;
+
+    background-color: #DCE0D9;
+
+    display: flex;
+
+    gap: 20px;
+}
+
+
+/* left side content */
+#offerLeft{
+    width: 20%;
+}
+
+
+/* decorative blue line */
+.line{
+
+    width: 60px;
+    height: 5px;
+
+    background-color: #2294f2;
+
+    margin: 20px 0;
+}
+
+
+/* offer button */
+.offerBTN a{
+
+    display: inline-block;
+
+    padding: 15px 30px;
+
+    background-color: #2294f2;
+
+    color: white;
+
     text-decoration: none;
 }
 
-/*  aligning the "process" sections horizontally and styling accordingly */
 
-#process {
-    transition: transform 0.3s ease;
-    background-color: none;
-    display: flex;
-    gap: 5px;
-    width: 100%;
-    height: auto;
-    padding: 30px, 200px;
-    text-align: center;
-    justify-content: center;
+/* offer cards */
+.offerContainer{
+
+    width: 25%;
+
+    background-color: white;
+
+    border: solid 1px #ccc;
 }
 
-/* styling the icons */
-.icon {
-    width: 100%;
-    height: auto;
-    display: flex;
-    background-color: none;
-    justify-content: center;
-    padding-top: 70px;
 
-}
-
-.icon>img {
-    width: 150px;
-    height: 150px;
-
-}
-
-/* styling the  Blue, green and Yellow, containers */
-#blue {
-    background-color: #1993C8;
-    width: 30%;
-    height: 75vh;
-    border-radius: 5px;
-}
-
-#green {
-    background-color: #9BC53D;
-    width: 30%;
-    height: 70vh;
-    border-radius: 5px;
-}
-
-#purple {
-    background-color: #808f85;
-    width: 30%;
-    height: 75vh;
-    border-radius: 5px;
-}
-
-/* Formatting the container text contents */
-#blue h3,
-#green h3,
-#purple h3 {
-    color: black;
-    font-family: roboto, sans-serif;
-    font-size: 1rem;
-    text-transform: capitalize;
-    text-align: center;
-}
-
-#blue p,
-#green p,
-#purple p {
-    color: white;
-    font-family: roboto, sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    line-height: 27px;
-    text-transform: capitalize;
-}
-
-/* adding the hover effects on each  icon container */
-#blue:hover,
-#green:hover,
-#purple:hover {
-    background-color: #668f80;
-    transition-duration: .6s;
-    transform: translateY(-20px);
-}
-
-/* offer section */
-#offers {
-    width: 100%;
-    height: auto;
-    display: flex;
-    margin: 100px 20px;
-    padding: 50px;
-    gap: 10px;
-    background-color: #DCE0D9;
-}
-
-/*  implementing the dropdown on hover effect */
-#offerContainer {
+/* image wrapper */
+.overlayContainer{
     position: relative;
-    width: 20%;
-    height: 70vh;
-    border: solid 2px #1993C8;
-
 }
 
-#overlayContainer {
+
+/* images */
+.overlayContainer img{
+
     width: 100%;
-    height: auto;
+
+    display: block;
+}
+
+
+/* hover overlay */
+.overlay{
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0,0,0,0.7);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+
+    transition: 0.4s;
+}
+
+
+/* show overlay on hover */
+.overlayContainer:hover .overlay{
+    opacity: 1;
+}
+
+
+/* overlay link */
+.hoverLink a{
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 1.3rem;
+}
+
+
+/* text section */
+.offerTXT{
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+
+/* paragraph */
+.offerTXT p{
+
+    margin-top: 15px;
+
+    line-height: 28px;
+}
+
+
+
+/* =========================
+        STORY SECTION
+========================= */
+
+#storyContainer{
+
+    width: 100%;
+
+    padding: 100px 40px;
+}
+
+
+/* centered heading */
+.storyHeader{
+
+    text-align: center;
+
     margin-bottom: 50px;
 }
 
-#offerContainer>.image {
-    height: auto;
-    display: block;
-}
 
-.overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    background-color: #044b7f;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-}
-.hoverLink > a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
+/* heading */
+.storyHeader h3{
 
-/* applying th hover effect on the offer sections */
-
-#offerContainer:hover .overlay {
-    bottom: 0;
-    height: 100%;
-}
-
-.linkIcon {
-    white-space: nowrap;
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* left offer panel */
-#offerLeft {
-    background-color: none;
-    text-align: left;
-    width: 20%;
-    height: auto;
-    display: block;
-}
-
-#offerLeft .line {
-    width: 10%;
-    margin-bottom: 20px;
-    height: 5px;
-    background-color: blue;
-
-}
-
-/* offers button */
-.offerBTN a {
-    display: block;
-    padding: 25px;
-    text-align: center;
-    color: black;
-    background-color: #2294f2;
-    border: solid 1px;
-    margin: 10px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 1rem;
-    text-align: center;
-}
-
-/* hover effect on the offer buttons */
-.offerBTN a:hover {
-    background-color: #717171;
-    color: white;
-    border: solid1px;
-    font-size: 1rem;
-    font-family: roboto, sans-serif;
-    text-decoration: none;
-}
-
-.offerTXT h2 {
-    color: black;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.offerTXT p {
-    text-transform: none;
-    font-family: papyrus;
-    text-align: center;
-    margin-top: 50px;
-    font-size: 1.2rem;
-}
-
-/* story section */
-
-#storyContainer {
-    width: 100%;
-    height: auto;
-    margin: 200px 50px;
-    padding: 20px 5px;
-    display: block;
-}
-
-/* story header */
-.storyHeader{
-    width: 100%;
-    height: auto;
-    display: block;
-    text-align: center;
-}
-.storyHeader>h3 {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 0 100px 0;
     font-size: 2.5rem;
-}
-#ourStory {
-    background-color: none;
-    width: 100%;
-    height: auto;
-    display: inline-flex;
-}
 
-.storyIMG {
-    width: 50%;
-    height: auto;
-
-}
-
-.storyIMG img {
-    width: 100%;
-    height: 100%;
-}
-
-/* styling the text of the story section */
-.storyTXT {
-    width: 40%;
-    height: auto;
-    display: block;
-    font-size: 1.2rem;
-    margin: 10px 0 50px 50px;
-}
-
-/* story header */
-.storyTXT>h3 {
-    text-align: left;
-    background-color: none;
     text-transform: uppercase;
-    word-spacing: 10px;
 }
 
-.storyTXT p {
-    font-family: papyrus;
-    text-transform: none;
-}
 
-.storyTXT>.underline {
-    width: 15%;
-    height: 15px;
-    background-color: #2294f2;
-}
-.storyTextLogo{
-    width: 100%;
+/* story wrapper */
+#ourStory{
+
     display: flex;
-    height: auto;
-    justify-content: space-between;
-    background-color: none;
-    
-}.storyTextLogo .read{
-    border: solid 1px;
-    color: #2294f2;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 15px 50px;
-}
-/* this section controls the hover effect on the storyTXT section */
 
-.storyTextLogo .read:hover{
-    background-color: #2294f2;
-    color: white;
-    border: solid;
-    transition: .5s;
+    gap: 40px;
 }
-.storyTextLogo > .image{
-    background-color:  none;
-    
+
+
+/* image container */
+.storyIMG{
+    width: 50%;
+}
+
+
+/* image */
+.storyIMG img{
+    width: 100%;
+}
+
+
+/* text content */
+.storyTXT{
+    width: 50%;
+}
+
+
+/* heading */
+.storyTXT h3{
+    text-transform: uppercase;
+}
+
+
+/* underline */
+.underline{
+
+    width: 80px;
+    height: 5px;
+
+    background-color: #2294f2;
+
+    margin: 20px 0;
+}
+
+
+/* paragraph */
+.storyTXT p{
+    line-height: 30px;
+}
+
+
+/* bottom links */
+.storyTextLogo{
+
+    margin-top: 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* read more button */
+.read{
+
+    padding: 15px 40px;
+
+    border: solid 1px #2294f2;
+
+    text-decoration: none;
+
+    color: #2294f2;
+
+    transition: 0.4s;
+}
+
+
+/* hover effect */
+.read:hover{
+
+    background-color: #2294f2;
+
+    color: white;
+}
+
+
+
+/*CONTACT SECTION*/
+
+#contact{
+    width: 100%;
+    padding: 100px 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* form wrapper */
+#formContainer{
+
+    width: 60%;
+
+    background-color: white;
+
+    padding: 50px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+
+/* form heading */
+#formContainer h3{
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    font-size: 2rem;
+
+    text-transform: uppercase;
+}
+
+
+/* form layout */
+#formContainer form{
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+/* labels */
+#formContainer label{
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-weight: bold;
+}
+
+/* inputs and textarea */
+#formContainer input,
+#formContainer textarea{
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: solid 1px #ccc;
+
+    border-radius: 5px;
+
+    font-size: 1rem;
+}
+
+/* textarea height */
+#formContainer textarea{
+
+    height: 150px;
+
+    resize: vertical;
+}
+
+
+/* submit button */
+#formContainer button{
+
+    margin-top: 30px;
+
+    padding: 15px;
+
+    background-color: #2294f2;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 1rem;
+
+    border-radius: 5px;
+
+    transition: 0.4s;
+}
+
+/* button hover */
+#formContainer button:hover{
+    background-color: #0d6fc2;
 }

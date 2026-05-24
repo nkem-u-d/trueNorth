@@ -1,180 +1,453 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
+    <!-- character encoding -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- responsive design setup -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- page title -->
+    <title>TrueNorth</title>
+
+    <!-- external css file -->
     <link rel="stylesheet" href="trueNorth.css">
+
 </head>
 
 <body>
-    <!-- Creating the top header -->
-    <div id="header">
-        <span class="logo">
+
+    <!--HEADER SECTION -->
+
+    <header id="header">
+
+        <!-- company logo -->
+        <div class="logo">
+
             <a href="index.html">
-                <img src="logo-s.png" alt="logo image">
+                <img src="logo-s.png" alt="TrueNorth Logo">
             </a>
-        </span>
-        <div id="navBar">
-            <nav id="topNav">
-                <a href="index.html">home</a>
-                <a href="about.html">About</a>
-                <a href="services.html">Services</a>
-                <a href="admin.html">Admin Panel</a>
-                <a href="pages.html">pages</a>
-                <a href="shop.html">SHop</a>
-                <input type="search" placeholder="search">
-            </nav>
+
         </div>
-    </div>
-    <!-- hero section, including background image and text -->
-    <div id="hero">
+
+        <!-- top navigation links -->
+        <nav id="topNav">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="admin.html">Admin Panel</a>
+            <a href="pages.html">Pages</a>
+            <a href="shop.html">Shop</a>
+
+            <!-- search bar -->
+            <input type="search" placeholder="Search">
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- HERO SECTION -->
+
+    <section id="hero">
+
+        <!-- dark transparent text container -->
         <div id="heroTXT">
-            <h3>we help <span>Businesses </span></h3>
-            <p>the next big idea is waiting for its big changer</p>
-            <div class="contactBTN">
-                <a href="contact.html">Contact Now</a>
-            </div>
-        </div>
-    </div> 
-    
-    <!-- commitment container -->
 
-    <div id="commitment">
-            <div class="commitmentContent">
-                    <h1>WE ARE COMMITTED TO HELPING</h1>
-                    <hr>
-                    <p>TrueNorth will deliver value to all the stakeholders and will attain excellence and leadership through such
-                    delivery of value. We will strive to support the stakeholders in all activities related to us. TrueNorth
-                    provides great things.</p>
-                    <div class="readMoreBtn">
-                    <a href="blog.html">Read More</a>
-                    </div>
-           </div>
-    </div>
-    <!-- our three process for helping business grow -->
+            <!-- hero heading -->
+            <h3>
+                We Help <span>Businesses</span>
+            </h3>
 
-    <div id="process">
-        <div id="blue">
-            <div class="icon">
-                <img src="icons/strategy.png" alt="business insight">
-            </div>           
-            <h3>Discover opportunities through deep business insight.</h3>
-            <p>We partner with businesses to thoroughly analyze their unique challenges, uncover untapped growth opportunities, and craft tailored strategies that align with long-term goals. By combining deep market insights with innovative solutions. <br> <br>we design sustainable pathways to success, helping organizations strengthen their competitive edge, optimize performance, and achieve measurable results.
+            <!-- hero paragraph -->
+            <p>
+                The next big idea is waiting for its big changer
             </p>
-        </div>
 
-        <div id="green">
-            <div class="icon">
-                <img src="icons/data-analytics.png" alt="growth chart icon">
+            <!-- contact button -->
+            <div class="contactBTN">
+
+                <a href="contact.html">
+                    Contact Now
+                </a>
+
             </div>
-            <h3>Build tailored growth plans that drive measurable impact</h3>
-            <p>We implement proven, results-driven solutions that address immediate challenges while laying the foundation for long-term success. By streamlining and optimizing operations, <br><br> we help organizations reduce inefficiencies, enhance productivity, and strengthen overall performance, Leveraging the latest technologies and data-driven insights, we drive measurable improvements across critical business areas, empowering companies to achieve sustainable growth, adapt to evolving market demands, and maintain a competitive edge..</p>
+
         </div>
 
-        <div id="purple">
-            <div class="icon">
-                <img src="icons/research.png" alt="research and growth icon">
+    </section>
+
+
+
+    <!--COMMITMENT SECTION -->
+
+    <section id="commitment">
+
+        <div class="commitmentContent">
+
+            <!-- section heading -->
+            <h1>
+                WE ARE COMMITTED TO HELPING
+            </h1>
+
+            <!-- blue underline -->
+            <hr>
+
+            <!-- commitment text -->
+            <p>
+                TrueNorth delivers value to stakeholders through
+                innovative solutions and sustainable growth strategies.
+            </p>
+
+            <!-- read more button -->
+            <div class="readMoreBtn">
+
+                <a href="blog.html">
+                    Read More
+                </a>
+
             </div>
-            <h3>Continuous growth through insight</h3>
-            <p>We continuously monitor performance across critical business functions, ensuring that every initiative is aligned with measurable outcomes. By refining strategies in real time, we help organizations stay agile and responsive to shifting market dynamics. <br><br>Through the integration of data‑driven insights and expert guidance, we not only address immediate challenges but also build resilient frameworks for sustained, long‑term growth. Our approach empowers businesses to make smarter decisions, optimize resources, and unlock their full potential in an ever‑evolving landscape.</p>
-        </div>
-    </div>
-    <hr style="margin-top: 10px;">
 
-    <!-- this section contains a brief overview of a few of our offers -->
-     <div id="offers">
+        </div>
+
+    </section>
+
+
+
+    <!--PROCESS SECTION-->
+
+    <section id="process">
+
+        <!-- first process card -->
+        <div class="processCard blue">
+
+            <!-- icon -->
+            <div class="icon">
+                <img src="icons/strategy.png" alt="Strategy Icon">
+            </div>
+
+            <!-- process heading -->
+            <h3>
+                Discover opportunities through deep business insight
+            </h3>
+
+            <!-- process description -->
+            <p>
+                We analyze business challenges and uncover opportunities
+                for sustainable growth and innovation.
+            </p>
+
+        </div>
+
+
+
+        <!-- second process card -->
+        <div class="processCard green">
+
+            <div class="icon">
+                <img src="icons/data-analytics.png" alt="Analytics Icon">
+            </div>
+
+            <h3>
+                Build tailored growth plans
+            </h3>
+
+            <p>
+                We implement data-driven strategies that improve
+                productivity and long-term success.
+            </p>
+
+        </div>
+
+
+
+        <!-- third process card -->
+        <div class="processCard purple">
+
+            <div class="icon">
+                <img src="icons/research.png" alt="Research Icon">
+            </div>
+
+            <h3>
+                Continuous growth through insight
+            </h3>
+
+            <p>
+                Through analytics and optimization, we help businesses
+                improve and stay competitive.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!--OFFERS SECTION -->
+
+    <section id="offers">
+
+        <!-- left side content -->
         <div id="offerLeft">
-            <h1>what we <br> offer</h1>
-            <div class="line" ></div>
+
+            <h1>What We Offer</h1>
+
+            <!-- decorative line -->
+            <div class="line"></div>
+
+            <!-- offer button -->
             <div class="offerBTN">
-                <a href="offers.html">Current Offers</a>
+
+                <a href="offers.html">
+                    Current Offers
+                </a>
+
             </div>
-        </div>
-        <!-- offer content -->
 
-        <div id="offerContainer">
-               <div id="overlayContainer">
-                 <img src="news-11.jpg" alt="house plant img" style="width: 100%;">
+        </div>
+
+
+
+        <!--OFFER CARD 1-->
+
+        <div class="offerContainer">
+
+            <!-- image container -->
+            <div class="overlayContainer">
+
+                <img src="news-11.jpg" alt="Business Management">
+
+                <!-- hover overlay -->
                 <div class="overlay">
-                    <div class="linkIcon">
-                       <div class="hoverLink">
-                        <a href="buisness.html">Read More</a>
-                       </div>
+
+                    <div class="hoverLink">
+
+                        <a href="business.html">
+                            Read More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- offer text -->
+            <div class="offerTXT">
+
+                <h2>Business Management</h2>
+
+                <p>
+                    We streamline operations and improve business performance.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!--OFFER CARD 2 -->
+
+        <div class="offerContainer">
+
+            <div class="overlayContainer">
+
+                <img src="news-13.jpg" alt="Leadership Development">
+
+                <div class="overlay">
+
+                    <div class="hoverLink">
+
+                        <a href="business.html">
+                            Read More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="offerTXT">
+
+                <h2>Leadership Development</h2>
+
+                <p>
+                    We help leaders develop confidence and strategic thinking.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!--OFFER CARD 3-->
+
+        <div class="offerContainer">
+
+            <div class="overlayContainer">
+
+                <img src="news-14.jpg" alt="Social Benefits">
+
+                <div class="overlay">
+
+                    <div class="hoverLink">
+
+                        <a href="business.html">
+                            Read More
+                        </a>
+
                     </div>
                 </div>
-               </div>
-                <div class="offerTXT">
-                    <h2>Business management</h2>
-                    <p>We partner with clients to streamline operations, align resources, and guide smarter decisions, driving efficiency, agility, and sustainable growth.</p>
-                </div>
+            </div>
+            <div class="offerTXT">
+
+                <h2>Social Benefits & Services</h2>
+
+                <p>
+                    We improve access and create impactful community programs.
+                </p>
+
+            </div>
+
         </div>
 
-         <div id="offerContainer">
-               <div id="overlayContainer">
-                 <img src="news-13.jpg" alt="house plant img" style="width: 100%;">
-                <div class="overlay">
-                    <div class="linkIcon">
-                        <div class="linkIcon">
-                            <div class="hoverLink">
-                                <a href="buisness.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               </div>
-                <div class="offerTXT">
-                    <h2>Leadership Development</h2>
-                    <p>We help leaders grow with confidence, clarity, and resilience equipping them to inspire teams, adapt to change, and drive lasting success.</p>
-                </div>
-        </div>
+    </section>
 
-         <div id="offerContainer">
-               <div id="overlayContainer">
-                 <img src="news-14.jpg" alt="house plant img" style="width: 100%;">
-                <div class="overlay">
-                    <div class="linkIcon">
-                        <div class="linkIcon">
-                            <div class="hoverLink">
-                                <a href="buisness.html">test</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               </div>
 
-                <div class="offerTXT">
-                    <h2>Social benefits and services </h2>
-                    <p>We provide programs that improve access, foster inclusion, and enhance well‑being, helping communities grow stronger and more resilient..</p>
 
-                </div>
-        </div>
-     </div>
-<!-- telling our story -->
- <div id="storyContainer">
+    <!-- =========================
+            STORY SECTION
+    ========================== -->
+
+    <section id="storyContainer">
+
+        <!-- story section heading -->
         <div class="storyHeader">
-            <h3>our success transformation story</h3>   
-        </div>  
-        <div id="ourStory">
-            <div class="storyIMG"><img src="image-4.jpg" alt="office working "></div>
-            <div  class="storyTXT">
-                    <h3>how to grow with us</h3>
-                <div class="underline"></div>
-                <p>Success means different things to different people, each individual defines it in their own way. For us, however, one priority stands above all: the success of our students, alumni, and the organizations they serve. <br>  <br>We are deeply committed to supporting our alumni, ensuring they remain among the best in their fields and continue to achieve high employment rates. Their accomplishments reflect the strength of our community and the value of the education they received. <br> <br>Every success story is unique, and our students and alumni embody this diversity of achievement. Their journeys highlight that success is not a single definition, but a collection of personal milestones, professional growth, and meaningful impact.</p>
-                <div class="storyTextLogo">
-                    <a href="readmore.html" class="read">Read more</a>
-                    <a href="index.html" class="image">
-                        <img src="logo-s.png" alt="logo image">
-                    </a>
-                </div>
-            </div>
+
+            <h3>
+                Our Success Transformation Story
+            </h3>
+
         </div>
- </div>
+
+        <!-- story content wrapper -->
+        <div id="ourStory">
+
+            <!-- story image -->
+            <div class="storyIMG">
+
+                <img src="image-4.jpg" alt="Office Workspace">
+
+            </div>
+
+            <!-- story text -->
+            <div class="storyTXT">
+
+                <h3>
+                    How To Grow With Us
+                </h3>
+
+                <!-- blue underline -->
+                <div class="underline"></div>
+
+                <p>
+                    We support businesses and organizations by providing
+                    opportunities for growth and innovation.
+                </p>
+
+                <!-- bottom links -->
+                <div class="storyTextLogo">
+
+                    <!-- read more link -->
+                    <a href="readmore.html" class="read">
+                        Read More
+                    </a>
+
+                    <!-- company logo -->
+                    <a href="index.html" class="image">
+
+                        <img src="logo-s.png" alt="Logo">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
 
+    <!--CONTACT SECTION -->
+
+    <section id="contact">
+
+        <!-- form container -->
+        <div id="formContainer">
+
+            <form action="">
+
+                <!-- form heading -->
+                <h3>
+                    Continue The Conversation
+                </h3>
+
+                <!-- name input -->
+                <label for="name">
+                    Your Name
+                </label>
+
+                <input type="text"
+                    id="name"
+                    placeholder="Enter your name">
+
+
+                <!-- email input -->
+                <label for="email">
+                    Email Address
+                </label>
+
+                <input type="email"
+                    id="email"
+                    placeholder="Enter your email">
+
+
+                <!-- subject input -->
+                <label for="subject">
+                    Subject
+                </label>
+
+                <input type="text"
+                    id="subject">
+
+
+                <!-- message textarea -->
+                <label for="message">
+                    Message
+                </label>
+
+                <textarea id="message"></textarea>
+                <!-- submit button -->
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
 
 </body>
 
