@@ -436,7 +436,7 @@ body {
     width: 40%;
     height: auto;
     display: block;
-    margin: 0 0 0 50px;
+    margin: 10px 0 50px 50px;
 }
 
 /* story header */
@@ -482,7 +482,7 @@ body {
     border: solid;
     transition: .5s;
 }
-
 .storyTextLogo > .image{
     background-color:  none;
+    
 }
