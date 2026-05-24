@@ -706,25 +706,45 @@ body{
     background-color: #0d6fc2;
 }
 
-/* pillar container */
+/* pillar parent container */
 
 #pillars{
     width: 100%;
     height: 60vh;
-    background-color: red;
+    background-color: ;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 
 }
+/* pillarChild container */
 #pillars .pillarChild{
     width: 20%;
-    height: auto;
-    background-color: yellow;
+    height: 50vh;
+    font-size: 1rem;
     text-align: center;
+    background-color: #f0f0f0;
 
 }
+/* pillar image size and style */
 .pillarChild img{
     width: 100%;
 }
+/* pillarchild header */
+.pillarChild h4{
+    color: black;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+/* pillarchild paragrapgh */
+.pillarChild p{
+    margin: 5px 5px 20px 5px;
+}
+/* pillar button */
+.pillarChild a{
+    color: #2294f2;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
