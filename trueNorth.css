@@ -1,11 +1,8 @@
-/* =========================
-        TRUENORTH.CSS
-========================= */
 
 
-/* =========================
+
+/*
         GLOBAL RESET
-========================= */
 
 /* removes default browser spacing */
 *{
@@ -18,14 +15,12 @@
 /* general body styling */
 body{
     overflow-x: hidden;
-    font-family: Roboto, sans-serif;
+    font-family: papyrus sans-serif;
 }
 
 
 
-/* =========================
-        HEADER SECTION
-========================= */
+/* HEADER SECTION */
 
 #header{
 
@@ -38,7 +33,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     border-bottom: solid 1px #ccc;
 }
 
@@ -109,7 +103,7 @@ body{
 /* dark transparent text box */
 #heroTXT{
 
-    width: 60%;
+    width: 50%;
 
     padding: 80px;
 
@@ -751,8 +745,81 @@ body{
     transform: translateY(-15px);
     transition-duration: .8s;
     box-shadow: 5px 5px #2294f2;
-    }
-    /* footer section */
+}
+/* footer section */
+
+#footer{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px;
+    background-color: oklch(89.311% 0.00655 16.428 / 0.938);
+    display: block;
+}
+
+/* footerContainer */
+.footerContainer{
+    /* horizontal positioning */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: inherit;
+    height: auto;
+}
+
+/* footer logo section */
+
+.footerContainer .aboutLogo{
+    width: 20%;
+    height: 20vh;
     
+}
+
+/* aboutLogo paragraph */
+
+.aboutLogo p{
+    color: black;
+    font-size: 1.1rem;
+    font-family: papyrus;
+    text-transform: capitalize;
+}
+.company{
+    width: 10%;
+    text-align: left;
+    height: auto;
+    display: block;
+}
+
+/* bottomNAv links */
+.bottomNav a{
+    display: block;
+    margin: 10px;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+/* hover effect of on the footer links */
+.bottomNav a:hover{
+    color: #0d6fc2;
+    text-decoration: underline;
+    transition-duration: .3s;
+}
+    
+/* footer Resources section */
+.resources{
+    width: 10%;
+    height: auto;
+}
+
+/* changes made: changed the backgroun-color of the footer, 
+changed the font-color of the texts, 
+applied new margin rules to the footer section
+reduced the width of the transparent background container of the hero section
+changed the universal font-family
+applied hover effcts on the bottomNav links
+applied a transition-duration for the bottomNav links 
 
 
+*/
