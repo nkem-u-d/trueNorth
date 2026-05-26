@@ -801,6 +801,8 @@ body{
     text-transform: capitalize;
     text-decoration: none;
     color: white;
+    font-size: 1rem;
+    
 }
 /* hover effect of on the footer links */
 .bottomNav a:hover{
