@@ -740,6 +740,48 @@ body{
     transition-duration: .8s;
     box-shadow: 5px 5px #2294f2;
 }
+
+/* what we do section' */
+
+#whatWeDO{
+    width: 100%;
+    height: auto;
+
+}
+ .insightContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+ }
+ .insightContainer .partner{
+    width: 20%;
+    height: 20vh;
+    background-color: green;
+ }
+ .rowContainer{
+    
+    display: block;
+    height: auto;
+    width: 20%;
+ }
+
+ /* horizontal effect of the subrow container */
+
+ .rowContainer .subRow{
+    display: flex;
+    
+ }
+
+ /* subrow icons */
+ .subRow img{
+    width: 50px;
+    height: 50px;
+ }
+ /* subrow text */
+ .subRowText{
+    text-align: left;
+ }
+
 /* footer section */
 
 #footer{
