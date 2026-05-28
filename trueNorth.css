@@ -746,6 +746,7 @@ body{
 #whatWeDO{
     width: 100%;
     height: auto;
+   
 
 }
  .insightContainer{
@@ -765,6 +766,7 @@ body{
     height: auto;
     width: 20%;
     margin: 0 20px;
+    
  }
 
  /* horizontal effect of the subrow container */
@@ -774,6 +776,8 @@ body{
     width:100%;
     gap: 20px;
     height: auto;
+    margin: 0 0 70px 0;
+
     
  }
  /* subrow container */
@@ -787,6 +791,7 @@ body{
  /* subrow text */
  .subRowText{
     text-align: left;
+    font-size: 1.1rem;
  }
 
 /* footer section */
