@@ -361,13 +361,10 @@ body{
 
 /* decorative blue line */
 .line{
-
-    width: 60px;
+    width: 40px;
     height: 5px;
-
-    background-color: #2294f2;
-
-    margin: 20px 0;
+    background-color: white;
+    margin: 10px 0;
 }
 
 
@@ -804,6 +801,13 @@ body{
  .subRowText{
     text-align: left;
     font-size: 1.1rem;
+ }
+
+ /* subRowText headers  */
+ .subRowText h4{
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
  }
 
 /* footer section */
