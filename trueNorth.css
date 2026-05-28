@@ -791,8 +791,11 @@ body{
  /* subrow icons */
  .subRow img{
     width: 50px;
+    filter: invert(1);
     height: 50px;
- }
+    background-color: red;
+    
+}
  /* subrow text */
  .subRowText{
     text-align: left;
