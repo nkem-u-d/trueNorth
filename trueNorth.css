@@ -744,21 +744,26 @@ body{
 /* what we do section' */
 
 #whatWeDO{
-    width: 100%;
-    height: auto;
-   
-
+    width: 50%;
+    height: auto; 
+     display: block;
 }
+
  .insightContainer{
     width: 100%;
     height: auto;
     display: flex;
+    background-color: #0a88a2;
+    color: white;
     justify-content: space-evenly;
  }
- .insightContainer .partner{
+ .partner{
     width: 20%;
     height: 20vh;
-    
+ }
+ /* headers inside the .partner container */
+ .partner h2{
+    font-size: 2rem;
  }
  .rowContainer{
     
