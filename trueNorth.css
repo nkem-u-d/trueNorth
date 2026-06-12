@@ -316,9 +316,8 @@ body{
 
 /* card heading */
 .processCard h3{
-
+    text-transform: capitalize;
     margin-top: 20px;
-
     color: black;
 }
 
