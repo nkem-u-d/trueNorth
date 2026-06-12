@@ -57,8 +57,10 @@ body{
     display: inline-block;
 
 }
+/* adding features to the dropdown contents */
+
 .dropdownContent{
-    background-color: #f9f9f9;;
+    background-color: #f9f9f9;
     position: absolute;
     min-width: 200px;
     z-index: 1;
@@ -69,11 +71,17 @@ body{
 /* drowdownContent displays on hover */
 .dropdown:hover .dropdownContent{
     display: block;
+    position: absolute;
 }
 .dropdown:hover a{
     display: block;
-    position: relative;
-    margin: 10px;
+    margin:10px;
+}
+/* hover border styling on pages  */
+.dropdown:hover{
+    border: 3px solid green;
+    border-right: none;
+    border-left: none;
 }
 
 
