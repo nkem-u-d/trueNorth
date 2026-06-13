@@ -42,11 +42,10 @@ body{
 
 /* navigation container */
 #topNav{
-
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 25px;
+    justify-content: center;
+    gap: 40px;
 }
 /* dropdown parent */
 .dropdown{
@@ -82,7 +81,6 @@ body{
     border-top: none;
     border-bottom: none;
 }
-
 
 /* nav links */
 #topNav a{
