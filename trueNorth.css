@@ -1,6 +1,3 @@
-
-
-
 /*
         GLOBAL RESET
 
@@ -72,6 +69,7 @@ body{
 .dropdown:hover .dropdownContent{
     display: block;
     position: absolute;
+    margin-top: 15px;
 }
 .dropdown:hover a{
     display: block;
@@ -89,6 +87,7 @@ body{
 #topNav a{
     text-decoration: none;
     color: black;
+    margin: 10px;
     font-weight: bold;
     text-transform: capitalize;
 }
