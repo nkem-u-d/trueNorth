@@ -956,9 +956,8 @@ body{
 #declaration div.decTXTContainer{
     width: 50%;
     display: flex;
+    margin: 50px 0;
     justify-content: center;
-
-
 }
 
 /* dec TXT */
@@ -972,12 +971,15 @@ body{
     color: rgba(33, 150, 243, 1);
     text-transform: uppercase;
     font-size: 3rem;
+    
 }
 
 .decTXT p{
     color: RGB(100, 112, 123);
     font-family: hind, sans-serif;
     font-size: 1.2em;
+    line-height: 30px;
+    margin: 30px 0;
 }
 /* decIMG container */
 
