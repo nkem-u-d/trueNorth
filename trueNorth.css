@@ -943,3 +943,50 @@ body{
     font-size: 1.3rem;
     text-transform: uppercase;
 }
+
+/* Declarations section */
+#declaration{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#declaration div.decTXTContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/* dec TXT */
+
+.decTXT{
+    font-family: Roboto, sans-serif;
+    width: 60%;
+    
+}
+.decTXT h2{
+    color: rgba(33, 150, 243, 1);
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.decTXT p{
+    color: RGB(100, 112, 123);
+    font-family: hind, sans-serif;
+    font-size: 1.2em;
+}
+/* decIMG container */
+
+.decIMG{
+    width: 30%;
+}
+
+/* dec img */
+
+.decIMG img {
+    width: 100%;
+}
