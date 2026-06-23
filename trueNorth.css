@@ -949,6 +949,8 @@ body{
     width: 100%;
     height: auto;
     display: flex;
+    margin: 50px 0;
+    padding: 10px;
     justify-content: center;
     
 }
@@ -987,7 +989,7 @@ body{
     width: 30%;
     display: flex;
     height: 500px;
-    margin: 0 20px;
+    margin: 0 30px;
   flex-direction: column;
   justify-content: flex-end; /* pushes content to the bottom */   
 
@@ -997,5 +999,6 @@ body{
 
 .decIMG img {
     width: 100%;
+    border: 2px solid black;
     
 }
