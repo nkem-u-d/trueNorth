@@ -1058,13 +1058,37 @@ body{
     width: 100%;
     height: auto;
     margin: 10px;
-    display: inline-block;
-    
+    display: flex;
+    justify-content: center;
 
 }
 .gridParent{
     width: 50%;
     height: auto;
+    margin: 50px 0;
     display: flex;
-
+    gap: 100px;
+}
+.gridTXT{
+    display: inline-block;
+    width: 40%;
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.gridTXT h2{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.gridTXT p{
+    color:RGB(100, 112, 123);
+    font-family: hind, sans-serif;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.gridIMG{
+    width: 60%;
+}
+.gridIMG img{
+    width: 100%;
 }
