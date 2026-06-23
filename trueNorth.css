@@ -1057,13 +1057,13 @@ body{
 #gridContainer{
     width: 100%;
     height: auto;
-    margin: 10px;
+    margin: 50px 0;
     display: flex;
     justify-content: center;
 
 }
 .gridParent{
-    width: 50%;
+    width: 60%;
     height: auto;
     margin: 50px 0;
     display: flex;
@@ -1071,7 +1071,7 @@ body{
 }
 .gridTXT{
     display: inline-block;
-    width: 40%;
+    width: 50%;
     font-family: roboto, sans-serif;
     font-size: 1rem;
     line-height: 30px;
@@ -1087,7 +1087,7 @@ body{
     margin: 20px 0;
 }
 .gridIMG{
-    width: 60%;
+    width: 50%;
 }
 .gridIMG img{
     width: 100%;
