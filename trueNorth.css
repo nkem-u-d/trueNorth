@@ -394,6 +394,9 @@ body{
 .offerBTN a{
 
     display: inline-block;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
 
     padding: 15px 30px;
 
@@ -402,6 +405,11 @@ body{
     color: white;
 
     text-decoration: none;
+}
+/* offerBTN hover effect */
+.offerBTN a:hover{
+    background-color: white;
+    color: black;
 }
 
 
