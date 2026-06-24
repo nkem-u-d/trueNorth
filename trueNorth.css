@@ -24,7 +24,7 @@ body{
 
     /* horizontal alignment */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-bottom: solid 1px #ccc;
 }
@@ -38,7 +38,6 @@ body{
 #topNav{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 40px;
 }
 /* dropdown parent */
@@ -239,8 +238,8 @@ body{
     border: none;
 }
 
-
 /* paragraph */
+
 .commitmentContent p{
 
     line-height: 30px;
@@ -248,14 +247,14 @@ body{
     color: #717171;
 }
 
-
 /* button container */
+
 .readMoreBtn{
     margin-top: 40px;
 }
 
-
 /* read more button */
+
 .readMoreBtn a{
 
     padding: 15px 40px;
