@@ -1104,6 +1104,8 @@ body{
 
 /* .........SERVICES PAGE...... */
 
+/* Service hero section */
+
 #serviceHero{
     width: 100%;
     min-height: 40vh;
@@ -1114,6 +1116,7 @@ body{
     background-position: center;
 
 }
+/* service hero text */
 
 .serviceHeroTXT{
     background-color: none;
@@ -1142,8 +1145,23 @@ body{
 
 .serviceHeroTXT{
     border: solid 5px white;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
     min-height: 40vh;
 
     text-align: center;
+}
+
+/* Our committment Section */
+#ourCommitment{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+#ourCommitment .vow{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+
 }
