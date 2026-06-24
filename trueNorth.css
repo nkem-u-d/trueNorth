@@ -1154,6 +1154,8 @@ body{
 /* Our committment Section */
 #ourCommitment{
     width: 100%;
+    margin: 100px 0;
+    padding: 10px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -1164,4 +1166,18 @@ body{
     text-align: center;
     margin: auto;
 
+}
+.vow h1{
+    font-family: roboto, sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+
+}
+.vow p{
+    font-family: papyrus;
+    margin: 20px 0;
+    text-align: center;
+    color:#717171;
+    font-size: 1.1rem;
+    line-height: 25px;
 }
