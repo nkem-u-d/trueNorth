@@ -1,0 +1,607 @@
+[33mcommit 4d7ee9fd039b6a6390679890beb0e9e9e76276c6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Wed Jun 24 02:19:29 2026 +0100
+
+     adjusted site logo and links distance
+
+[33mcommit 9a15adf7769306e16e6a75def7e3b91e8629aae5[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Wed Jun 24 02:11:14 2026 +0100
+
+    centred the commitment section on the service page
+
+[33mcommit 2d924d1aea851494770a31a39fc6ef8a56d38968[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Wed Jun 24 01:54:53 2026 +0100
+
+    added a new comitment section to the service page
+
+[33mcommit 7aea2c445662a9763ab6b861bd8ab072e3a074ff[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Wed Jun 24 01:34:12 2026 +0100
+
+    added dark background effect on services hero page
+
+[33mcommit 5ee9977013b1e66a91a1f731ae0fde4ecb4b3ed3[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Wed Jun 24 01:21:51 2026 +0100
+
+     added new images for the sevrice page
+
+[33mcommit 31c4053b6e3568c8303c1418ca3491d588e2c8b5[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Wed Jun 24 01:05:47 2026 +0100
+
+    added a new blog page
+
+[33mcommit d418e5c8207b9e033f58004ba80287e43fd737d7[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Wed Jun 24 00:46:47 2026 +0100
+
+    created a footet section for the abuut page
+
+[33mcommit 75d5658cf2ee46a97f5eceb41a0088284a4bc7ed[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Wed Jun 24 00:44:07 2026 +0100
+
+    added, contact section, as well as the offers section, then changed hover effect on the contact button
+
+[33mcommit a80c4ae08be6b95d4c74308c0c5ed001e776c6c6[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Wed Jun 24 00:33:59 2026 +0100
+
+    adjusted flex containers and positioning fpr the grid section
+
+[33mcommit 6177f316d1ba81babffa22b94f7923d1aa1f574b[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Wed Jun 24 00:21:37 2026 +0100
+
+    added new sections to the grid container
+
+[33mcommit eb7ee9ad4dfc56bf7134c5a2e7e7b28f7c7c430a[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue Jun 23 02:38:16 2026 +0100
+
+    incomplete styling fix
+
+[33mcommit 5e6b70d8559917f56229ebc1f530d453048c90ec[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue Jun 23 02:35:27 2026 +0100
+
+    added new grid section
+
+[33mcommit 5a76bee61dab89d92be8418ca110bd6976e81d0f[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue Jun 23 01:43:10 2026 +0100
+
+    added a new 'leaders ection
+
+[33mcommit 348d7e83a3c315e1a1b0899ddb784d9754893c80[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue Jun 23 01:08:48 2026 +0100
+
+    swaped position of decIMG and decTXT, then added a border to the decIMG for better visbility
+
+[33mcommit 495ae190020000ae2e24618a945e44fa432b09a2[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue Jun 23 01:02:21 2026 +0100
+
+     changed the text, as well as image position of the declarations section
+
+[33mcommit 129c93b9d941839711bb7d5b3650d0ce6a7eee16[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue Jun 23 00:45:53 2026 +0100
+
+    adjusted the margins of the declarations container in the about page
+
+[33mcommit da9b850b4cf190f6de4c1475a1e6cbe80f2c6bd4[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue Jun 23 00:41:14 2026 +0100
+
+    changed the formating of the declarations section
+
+[33mcommit 80a3788e83d637a1e194c2396e5fb3a0f3f4bed5[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue Jun 23 00:22:10 2026 +0100
+
+     added new 'declarations ' section including text and an ipad image
+
+[33mcommit e7cd7d9fa1d8804ad63606a943c5db370afb7044[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue Jun 23 00:11:20 2026 +0100
+
+    changed about hero text font-family to ROboto
+
+[33mcommit 6259fc3ab5869fe5b0df1b2538837b5e8aff75d4[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue Jun 23 00:04:17 2026 +0100
+
+    added new images for the about section, as well as added new text in the hero section, and added a bacground image for the about hero section
+
+[33mcommit f4bb1f3f15a0ab428887b454efc83ad0ccc31e6d[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Mon Jun 22 01:15:10 2026 +0100
+
+    created the 'about.html ' structure
+
+[33mcommit 2fb3b00269380c1ec27c26aa4537df1aabb7ded4[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Mon Jun 22 00:09:05 2026 +0100
+
+    changed dropdownContnet links color to match parent link color
+
+[33mcommit 18a90014668dc8cbb7c098419c00dae535be6c50[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat Jun 13 01:57:24 2026 +0100
+
+    new images added to the image directory
+
+[33mcommit 6cb756da425c300949c5372adadc9c45b4b29d10[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat Jun 13 01:35:03 2026 +0100
+
+    increased the gap of the #topNav elements
+
+[33mcommit 74869a6611674ab6e75346711709e6abfa9b9465[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat Jun 13 01:20:49 2026 +0100
+
+    added down facing arrow to indicate dropdowns
+
+[33mcommit 5d37d9f4abb3596c4beb4097d803e7961049f0b1[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat Jun 13 01:11:51 2026 +0100
+
+    changed the hover effect to side borders as opposed to top and bottom botheres
+
+[33mcommit c46c3ef6f71710d8cd451e6def5b8081126f368b[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat Jun 13 01:05:13 2026 +0100
+
+    added a new margin to dropdown contents
+
+[33mcommit 1bb2fa56b1fa1a86ead3c269d3f2330362c126c6[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat Jun 13 00:58:33 2026 +0100
+
+    added a new hover effect on the top pages to reveal borders
+
+[33mcommit 16161bcd66c95e84f2998ded8ede134d1db0fd0d[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat Jun 13 00:46:33 2026 +0100
+
+    implemented the dropdown on hover effecr on the 'pages' link
+
+[33mcommit 52effd9b273f68d0b0399b304e0f3910017d6825[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat Jun 13 00:31:05 2026 +0100
+
+    added new drop down list for the 'pages' header
+
+[33mcommit 10504d90e7468e1e53c5729f30565ed34dd29193[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat Jun 13 00:18:00 2026 +0100
+
+    changed process card headers to capitalize
+
+[33mcommit be3fd3b6ef178e0b1fd6fe47ab543b5dba5481d3[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat Jun 13 00:12:45 2026 +0100
+
+    added new icons to the 'icons' directory, replaced three initial icons on the process card
+
+[33mcommit 54bec097a9ccc17ec57e60b8662d12e8fce9b9d7[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri Jun 12 23:51:43 2026 +0100
+
+    eddited the contact header for optimal spaceing
+
+[33mcommit e9458c2cbada894ae159d0a4190406080cc8c37f[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 28 21:57:34 2026 +0100
+
+    test push
+
+[33mcommit 5fcdeb930ea926eb48c7d5e72a2b08e7f050169b[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 28 21:09:48 2026 +0100
+
+    moved the contact header to outside the parent container
+
+[33mcommit d5ff05be2ce2ec4b9f4610dd2af25fbf795a66f9[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 28 20:52:07 2026 +0100
+
+     improved text formating and style
+
+[33mcommit 2454235b914eabf7d1002b4d4d291c1ae199cf6b[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 28 20:34:07 2026 +0100
+
+     positioned the insightContainer to the middle of the parent container, increased container margin
+
+[33mcommit 240a98108662a0e64ff1dde8030ffecc4e4fcdb1[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 28 19:51:42 2026 +0100
+
+    changed icons and icons color, then deleted previously used icons
+
+[33mcommit 4b7b0b190e9b29e78e3dbde37321a771024d6386[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 28 19:14:56 2026 +0100
+
+    changed background-color and font color on the 'insghtCOntainer'
+
+[33mcommit 9b6dcfddb892b643aaa03edb72c4c70eec85811c[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 28 12:47:37 2026 +0100
+
+    added spacing to the subRows
+
+[33mcommit 8796e647d2d25f210548b53c8cfe3c2d537960aa[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 28 12:29:35 2026 +0100
+
+    added even spacing on all flex items within 'insightCOntainer' for beter visibility
+
+[33mcommit 11fbb0e3494f0a9f03b9222b0275979d6ae7dc16[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 26 21:46:03 2026 +0100
+
+     added new styling and more conttents
+
+[33mcommit 99bcb7a6e286680dc04f0cbfe94a32d20daa6a36[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 26 21:01:15 2026 +0100
+
+    added a new section 'whatWeDo' section
+
+[33mcommit 18488383043641b3dbeff0c0ff7183cac8919441[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 26 20:46:56 2026 +0100
+
+     added new svg icons to the icons folder
+
+[33mcommit 73210d34587fde562dd06e640fe5d9b4cd3b06cc[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 26 20:11:07 2026 +0100
+
+    added background-image to the footer
+
+[33mcommit e5f865c1fe5e87ca62eccacdcd69cd8df7ae1e60[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 26 09:42:57 2026 +0100
+
+    fixed minor styling issues for better readbilty on text
+
+[33mcommit 11b1057a45f2fe74723e0d65247573d827c01c03[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 26 09:40:38 2026 +0100
+
+    added a background-image to the #contact section, as well as included a box-shadow effect on the #formContainer, for better visibility
+
+[33mcommit 5b63e38dbada583896a39ee9558aac57ff2edfc9[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 26 09:27:57 2026 +0100
+
+    added a new directory to contain all images for this site, then deleted previous images from the general directory
+
+[33mcommit e7a2d2d4c30e79fc93936a3cdaf62519e80d4eac[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 26 08:59:10 2026 +0100
+
+    added new html web pages to folder
+
+[33mcommit 6bf97222adbbc61d006cc4dc8a10ed3ff30ede19[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Mon May 25 22:09:58 2026 +0100
+
+    cretated a new footer section
+
+[33mcommit 61ec8d6cf6dbb32d2aa474215ce4cfa1d2b67c2b[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 24 23:51:03 2026 +0100
+
+    added a footer section
+
+[33mcommit 2716d6e01fe074b131824fb6800a43d885e631a3[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 24 23:21:11 2026 +0100
+
+    added hover effect on the offer overlay link
+
+[33mcommit 54d3ddf6a3176b003936e3c30a269b390ce26604[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 24 23:14:23 2026 +0100
+
+    added the hover effect on the pillarCHild container
+
+[33mcommit 2f8f4bf4d6355bc568bd7aac62cde05e89db9237[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 24 23:00:06 2026 +0100
+
+    changed the 'read more ' link color for better visibitlity, changed the images on the pillarchild containers to match
+
+[33mcommit 6a71e1f429d5b998563399f9b2ec47d69a598dbf[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 24 22:41:25 2026 +0100
+
+    added a flexbox to the pillars section to align the items horizontally
+
+[33mcommit 0e68f1f8e18590632495d109e191414856e6212e[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 24 22:35:30 2026 +0100
+
+    added a new section called the 'pillar' container, which contains our three core strategies
+
+[33mcommit 680c6f735afdd2d21e255729cf3da53910e76d36[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 24 22:24:28 2026 +0100
+
+    eddited entire web pages to include proper comments, as well as proper ID and class usage
+
+[33mcommit 4a30cec53173cc102f5fbd1ad64fa37369891137[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 24 21:46:34 2026 +0100
+
+    added a 'readme' button to thr dropdown hover effect of the offer section
+
+[33mcommit c0e1c5796f3c07a4a6188a5d6cce1998ca863811[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 24 21:30:32 2026 +0100
+
+    added new margins to the storyTXT section,
+
+[33mcommit aefcee0541be40e5bef904f5821d1db7d9ce3e1f[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 19 01:15:02 2026 +0100
+
+    added extra margins to the story container, for better text indenting
+
+[33mcommit 050f538cda41af2c52f138516bfa4cc47e7b19fc[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 19 01:09:53 2026 +0100
+
+    changed the hover effect background-color
+     of the key process
+
+[33mcommit 038eacde9e76c1ad9cfe45886bb5ab5a856955f8[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 19 01:07:04 2026 +0100
+
+    changed the background-color of one of the key process container
+
+[33mcommit 7a07cc601879e827d071144da7b27e6f25959867[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 19 00:58:51 2026 +0100
+
+    added the hover effect on the stroyTEXT button,
+
+[33mcommit 1858964994541dd04537307963508100621b3f6b[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 19 00:52:50 2026 +0100
+
+    added the company clickable logo to the storyTXT section, as well as added a button linking the readme file
+
+[33mcommit ab0080129ab90933a22d19ff17b61593790cef0f[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 19 00:26:45 2026 +0100
+
+    added paddings to the soty container, and made minor edits
+
+[33mcommit ef1414765f9e5deb992f6348bc1b7a1bd37dfb64[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 19 00:18:11 2026 +0100
+
+    adjusted the 'storyTXT' for better visibility
+
+[33mcommit e03e8a4cc9015450e5bb3cd5b0e21a8d59c4d414[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Tue May 19 00:01:14 2026 +0100
+
+    added the 'story' section, added the image and corresponding text to match
+
+[33mcommit 18ec7174c2d50081df819c09345c460419e8511a[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Mon May 18 23:36:55 2026 +0100
+
+    adjusted border radius and color of the '.offerCOntainer' as well as add a horizontal line to differentiate the 'offers' from 'process '
+
+[33mcommit 385c83f23e1971ea788af65f5df8d7d01901512c[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Mon May 18 23:23:05 2026 +0100
+
+    removed the 'contact us' button
+
+[33mcommit 57eca4fd0e01d70567de11a8cbd467b25e9a1842[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 17 01:10:06 2026 +0100
+
+    added clickable bottons to the offer section
+
+[33mcommit 6b41b7235942247ea96f6276cf45723fb7d4e3dd[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 17 00:49:48 2026 +0100
+
+    added three new images to the offers section
+
+[33mcommit 7cdf6f8920f3c6678188deb58238e7e10176fc52[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sun May 17 00:38:19 2026 +0100
+
+    added new offers section, implemented 4 new containers displaying our various offers, as well as button to read more
+
+[33mcommit c0f6dc9dc86bac5e6082a1dd809e1fce2571429a[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat May 16 23:43:29 2026 +0100
+
+    added a new section 'offers', displaying our most recent offers
+
+[33mcommit ea3ee7bac778ab4192adaee0e6c033e8e7e42f57[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat May 16 23:15:30 2026 +0100
+
+    changed the background image on the hero section to not move with the rest of the page upon scrolling
+
+[33mcommit 06b37333d4e08c1d2874a898becd6f029a363851[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat May 16 23:12:10 2026 +0100
+
+    inlcuded a border radius for each icon container of 5px
+
+[33mcommit f8c4158f99e8b63b85a7a32f69ba9c9e0875601f[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat May 16 23:09:06 2026 +0100
+
+    added the hover effect on the 'process' container, and also added the transparent background to be displayed upon hover
+
+[33mcommit e6e0465fedb761cd423584d903a0a3e74bad99b1[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat May 16 22:44:20 2026 +0100
+
+    disabled the horizontal scrolling effect on the entire page
+
+[33mcommit dc718b7d479f6571cb5cc36acc825be6a9d9f4ee[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat May 16 22:36:05 2026 +0100
+
+    eddited 'trueNorth.css file,
+
+[33mcommit b8dfd689f4949c63867295d883367d2f61c26fbd[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat May 16 22:29:41 2026 +0100
+
+     completed the 'green' and 'yellow' container, adjusted image and text formating,
+
+[33mcommit 727de11a6fab3aa3ed0d5d10db3cd9f4246f504b[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat May 16 22:07:12 2026 +0100
+
+    changed the background color of the first icon container, 'green',
+
+[33mcommit ef0e266c1c3bb0f4814e8df2fbef19bfe4085ad4[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat May 16 21:50:00 2026 +0100
+
+    made some gramatical changes to the to improve readabilty
+
+[33mcommit bd696e0d5ae0f0f4ddf46b4cc96e0214612e19ac[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Sat May 16 09:40:10 2026 +0100
+
+    created a new directory to hold all icons needed for the project, as well as imported 3 new icons
+
+[33mcommit a403dec0ed4f851e214127c5ee317effe2e53166[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 14:14:10 2026 +0100
+
+     created a new directory containing the icons needed for the site
+
+[33mcommit 6fe8e3011d80005d332208b62497f0d9e9721100[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 13:37:45 2026 +0100
+
+    added 3 process that explains how we help buisness in three very simple yet vital process
+
+[33mcommit 10b7f5f44c870270e3426dc537b6edd3d33fefae[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 13:17:34 2026 +0100
+
+    added the hover effect on the 'Read me ' button  with contrasting colors for better visibility and styling
+
+[33mcommit f37bca67f9546aced61f4659226319182bd5da6e[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 13:06:19 2026 +0100
+
+    centred the commitment container as well as the child elements, Edited the Readme button for beter visibility
+
+[33mcommit c8939afef27098a715acdb3d32a30941e76e328a[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 12:30:19 2026 +0100
+
+    added the commitment section, as well as adjusted the hero section height
+
+[33mcommit 79e880c2925e984c66047a7e9bdd22302aff70f7[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 12:00:45 2026 +0100
+
+     added the white solid border to the transparent hero container
+
+[33mcommit 17377b86c8336c750aaa04772e11871749696616[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 11:54:04 2026 +0100
+
+    increased indentation of the home page links, to aid visibility
+
+[33mcommit a28de92732f5a242fd93b6bf13cab7015ec90110[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 11:51:00 2026 +0100
+
+    added the home page link to the logo image, for easier accesibility
+
+[33mcommit ef6d1584cb1e275bd9440aad4820aff3a1c22f37[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 11:47:44 2026 +0100
+
+    added the placeholder effecr on the search button
+
+[33mcommit e0eee0108fd630e0b410fffd66ceb8de42aef939[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 11:40:40 2026 +0100
+
+    added the hover effect on the 'contact Now' button
+
+[33mcommit a1faaec531579bfd43fd8cffd850b6cf9c516b72[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 11:34:58 2026 +0100
+
+    added the transparent background on the hero image
+
+[33mcommit 554a50aed54c133edc32f6c495068aca5f673a83[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 11:10:28 2026 +0100
+
+    added a contact now button on the hero image, then correctly positioned the hero text in the middle for better visibility
+
+[33mcommit fc5d7f9286420698a2c4b3d181f844437ceb084c[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 02:40:38 2026 +0100
+
+    added a hero image and text clearly stating company role
+
+[33mcommit 7ac237d2b1070e58b0fb6e6880d06cb1a97058f2[m
+Merge: ab0cbe6 79db062
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 02:20:40 2026 +0100
+
+    testing again
+
+[33mcommit ab0cbe68bf22319ceed7d019580b418518afd89f[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 02:15:16 2026 +0100
+
+    added extra images ofr the homepage
+
+[33mcommit 79db062bd3ec55282cc1e4bb4af4809e9181d1bc[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Fri May 15 01:52:01 2026 +0100
+
+    created a new css file for styling
+
+[33mcommit 326ab1150644e036e01dee2b215e1b59b3500087[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 14 23:43:15 2026 +0100
+
+    created the header and edited the top nav
+
+[33mcommit 4d7e495cb854c5501c452c9679221a7ed35defaf[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 14 22:56:51 2026 +0100
+
+    uploded all files needed for the the home page
+
+[33mcommit 983a9d04dd365e2c754af60a3471fb5718edc3f8[m
+Author: nkem-u-d <nkem.m.udoka@gmail.com>
+Date:   Thu May 14 22:04:57 2026 +0100
+
+    created index.html file for the directory
