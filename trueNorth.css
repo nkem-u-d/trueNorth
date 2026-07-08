@@ -1158,8 +1158,10 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
-
 }
+
+/* commitment section */
+
 #ourCommitment .vow{
     width: 50%;
     text-align: center;
@@ -1179,4 +1181,27 @@ body{
     color:#717171;
     font-size: 1.1rem;
     line-height: 25px;
+}
+
+/* workFlow Section */
+#workFlow{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.workFlowChild{
+  width: 50%;
+  background-color: green;
+    display: flex;
+    gap: 20px;
+}
+
+.flexParent{
+    display: block;
+    width: 30%;
+    border: solid 1px;
 }
