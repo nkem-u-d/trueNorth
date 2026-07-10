@@ -1185,9 +1185,9 @@ body{
 
 /* workFlow Section */
 #workFlow{
-    background-color: red;
     height: auto;
     display: flex;
+    background-color: #f0f0f0;
     justify-content: center;
     align-items: center;
 
@@ -1197,5 +1197,56 @@ body{
     display: grid;
     grid-template-columns: auto auto auto auto;
     width: 50%;
+    border: 1px solid black;
     height: auto;
+}
+
+.workFlowGrid .gridItem{   
+    width: 12vw;
+    height:  auto;
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 15px;
+}
+
+.gridItem > .gridIcon{
+    background-color: white;
+    width: 5vw;
+    height: 5vw;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+}
+.gridIcon img{
+    width: 4vw;
+    padding: 5px;
+    background-color: red;
+    border-radius: 50%;
+    
+}
+
+/* workflow text */
+
+.workflowTXT{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;    
+}
+.workflowTXT h4{
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin: 10px;
+}
+
+.workflowTXT p{
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-size: 1.1rem;
+    margin: 20px 5px;
+    text-align: left;
 }
