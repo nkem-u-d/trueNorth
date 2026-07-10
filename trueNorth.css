@@ -1203,7 +1203,7 @@ body{
 
 .workFlowGrid .gridItem{   
     width: 12vw;
-    height:  auto;
+    height:  50vh;
     text-align: center;
     border: 1px solid black;
     padding-top: 15px;
@@ -1211,8 +1211,8 @@ body{
 
 .gridItem > .gridIcon{
     background-color: white;
-    width: 10vw;
-    height: 10vw;
+    width: 7vw;
+    height: 14vh;
     margin: auto;
     border-radius: 50%;
     display: flex;
@@ -1221,12 +1221,12 @@ body{
     border: 10px;
     
 }
+
 .gridIcon img{
-    width: 8vw;
+    width: 5vw;
     padding: 10px;
-    border-radius: 50%;
-    height: 10vw;
-    background-color: red;
+    
+
 }
 
 /* workflow text */
