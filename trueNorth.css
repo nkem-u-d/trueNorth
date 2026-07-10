@@ -1185,23 +1185,17 @@ body{
 
 /* workFlow Section */
 #workFlow{
-    
-    width: 100%;
+    background-color: red;
     height: auto;
     display: flex;
     justify-content: center;
-    
-    
-}
-.workFlowChild{
-  width: 50%;
-  background-color: green;
-    display: flex;
-    gap: 20px;
+    align-items: center;
+
 }
 
-.flexParent{
-    display: block;
-    width: 30%;
-    border: solid 1px;
+.workFlowGrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 50%;
+    height: auto;
 }
