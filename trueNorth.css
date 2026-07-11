@@ -613,9 +613,6 @@ body{
 
     color: white;
 }
-
-
-
 /*CONTACT SECTION*/
 
 #contact{
@@ -627,7 +624,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
 
 /* form wrapper */
 #formContainer{
@@ -649,7 +645,6 @@ body{
     font-size: 2rem;
     margin: 50px 0px;
     text-transform: uppercase
-
 }
 
 /* form layout */
@@ -657,7 +652,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 
 /* labels */
 #formContainer label{
@@ -670,7 +664,6 @@ body{
 /* inputs and textarea */
 #formContainer input,
 #formContainer textarea{
-
     width: 100%;
 
     padding: 15px;
@@ -1322,7 +1315,6 @@ body{
     text-decoration: none;
     color: white;
     background-color: #0d6fc2;
-    
 }
 
 /* strategy image  */
