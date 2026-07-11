@@ -1143,21 +1143,21 @@ body{
 /* service hero image slightly dark background effect */
 
 .serviceHeroTXT{
-    border: solid 5px white;
     background-color: rgba(0,0,0,0.2);
     min-height: 40vh;
-
     text-align: center;
 }
 
 /* Our committment Section */
 #ourCommitment{
     width: 100%;
-    margin: 100px 0;
+    min-height: 50vh;
     padding: 10px;
+    background-color: #f0f0f0;
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /* commitment section */
@@ -1166,17 +1166,15 @@ body{
     width: 50%;
     text-align: center;
     margin: auto;
-
 }
 .vow h1{
     font-family: roboto, sans-serif;
     font-size: 3rem;
     text-transform: uppercase;
-
 }
 .vow p{
     font-family: papyrus;
-    margin: 20px 0;
+    margin: 30px;
     text-align: center;
     color:#717171;
     font-size: 1.1rem;
@@ -1189,30 +1187,37 @@ body{
     display: flex;
     background-color: #f0f0f0;
     justify-content: center;
-    align-items: center;
-
+    margin: 0px 5px;
 }
-
 .workFlowGrid{
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: auto auto auto auto;
     width: 50%;
-    border: 1px solid black;
-    height: auto;
 }
 
 .workFlowGrid .gridItem{   
-    width: 12vw;
-    height:  50vh;
+    width: 13vw;
+    height:  30vh;
     text-align: center;
-    border: 1px solid black;
-    padding-top: 15px;
+    border: 1px solid;
+    padding-top: 10px;
 }
 
-.gridItem > .gridIcon{
-    background-color: white;
-    width: 7vw;
-    height: 14vh;
+.iconCon{
+    background-color: white ;
+    width: 5vw;
+    height: 10vh;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.gridIcon{
+    background-color:#f0f0f0 ;
+    width: 4.5vw;
+    height: 9vh;
     margin: auto;
     border-radius: 50%;
     display: flex;
@@ -1223,31 +1228,107 @@ body{
 }
 
 .gridIcon img{
-    width: 5vw;
-    padding: 10px;
-    
-
+    width: 2.5vw;
+    padding: 5px;
 }
 
 /* workflow text */
 
 .workflowTXT{
     width: 100%;
+    font-family: roboto, sans-serif;
     margin: 10px;
     padding: 10px;    
 }
 .workflowTXT h4{
+    text-align: left;
     color: black;
-    font-family: Roboto, sans-serif;
     font-size: 1.5rem;
     text-transform: capitalize;
-    margin: 10px;
+    margin: 10px 10px
 }
 
 .workflowTXT p{
     color: black;
-    font-family: Roboto, sans-serif;
     font-size: 1.1rem;
     margin: 20px 5px;
     text-align: left;
+}
+/* hover effect on the workflow section */
+
+.gridItem:hover{
+    transition-duration: .7s;
+    border-bottom: 7px solid #0d6fc2;
+    transform: translateY(-20px);
+    cursor: pointer;
+    transition-duration: .8s;
+    box-shadow:5px #2294f2;
+}
+.gridItem:hover .gridIcon{
+    background-color: #0d6fc2;
+    transition-duration: .3s;
+}
+
+/* strategy section */
+
+#strategies{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+}
+
+/* strategy flex container  */
+
+.strategyFlex{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh; 
+}
+/* strategy text */
+
+.strategyFlex .strategyTXT{
+    width: 50%;
+    text-align: left;
+    font-family: roboto, sans-serif;
+    padding: 20px 100px;
+}
+.strategyTXT h5{
+    color: #0d6fc2;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.strategyTXT p{
+    font-size: 1rem;
+    word-spacing: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.strategyTXT h2{
+    color: black;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+/* strategy contact link */
+.strategyTXT a{
+    border: 1px solid black;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: #0d6fc2;
+    
+}
+
+
+/* strategy image  */
+
+.strategyFlex .strategyIMG{
+    width: 50%;
+}
+.strategyIMG > img {
+    width: 100%;
 }
